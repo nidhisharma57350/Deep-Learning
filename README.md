@@ -9,7 +9,7 @@ Welcome to my Deep Learning repository! This space serves as a centralized portf
 
 # Core Architectures Explored
 
-*   **ANN (Artificial Neural Networks):**
-*   **CNN (Convolutional Neural Networks):** 
-*   **RNN & LSTM (Recurrent Neural Networks):** 
-*   **Transformers (Advanced):**
+*   ANN (Artificial Neural Networks)
+*   CNN (Convolutional Neural Networks)
+*   RNN & LSTM (Recurrent Neural Networks)
+*   Transformers (Advanced)
