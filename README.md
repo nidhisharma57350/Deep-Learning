@@ -7,10 +7,6 @@ Welcome to my Deep Learning repository! This space serves as a centralized portf
 *   **Core Frameworks:** TensorFlow / Keras / PyTorch
 *   **Data & Viz:** NumPy, Pandas, Matplotlib, Seaborn
 
-# Getting Started
-
-Follow these steps to set up the environment and run the models locally:
-
 # Core Architectures Explored
 
 *   **ANN (Artificial Neural Networks):**
