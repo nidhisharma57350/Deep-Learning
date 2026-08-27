@@ -17,13 +17,21 @@ This project implements handwritten digit recognition using a Sequential Neural 
 # Key concepts covered:
 
 MNIST Dataset
+
 Data preprocessing
+
 Pixel normalization
+
 Flatten Layer
+
 Dense Layers
+
 Model Training
+
 Model Evaluation
+
 Digit Prediction
+
 Accuracy and Loss Visualization
 
 # 2.Digit Recognition using CNN
@@ -35,15 +43,25 @@ CNNs are particularly useful for image classification because they can learn imp
 # Key concepts covered:
 
 MNIST Dataset
+
 Image preprocessing
+
 Pixel normalization
+
 Convolutional Layer (Conv2D)
+
 Pooling Layer (MaxPooling2D)
+
 Flatten Layer
+
 Dense Layers
+
 Model Training
+
 Model Evaluation
+
 Digit Prediction
+
 Accuracy and Loss Visualization
 
 Both projects use the MNIST Handwritten Digit Dataset.
@@ -54,12 +72,18 @@ Image Size: 28 × 28 pixels
 Classes: 10
 Digits: 0–9
 Image Type: Grayscale
-Technologies Used:
+# Technologies Used:
+
 Python
+
 NumPy
+
 Matplotlib
+
 TensorFlow
+
 Keras
+
 Jupyter Notebook
 
 # Learning Objectives:
@@ -67,13 +91,21 @@ Jupyter Notebook
 Through these projects, the following concepts are explored:
 
 Understanding image classification
+
 Working with the MNIST dataset
+
 Image preprocessing and normalization
+
 Building a Sequential Neural Network
+
 Building a Convolutional Neural Network
+
 Understanding different Deep Learning layers
+
 Training and evaluating models
+
 Visualizing model performance
+
 Making handwritten digit predictions
 
 This repository contains two independent implementations of handwritten digit recognition.
