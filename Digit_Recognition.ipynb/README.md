@@ -1,40 +1,57 @@
-Digit Recognition using Sequential Model
-Project Overview:
+Digit Recognition using Deep Learning:
+Overview:
 
-This project demonstrates handwritten digit recognition using a Deep Learning Sequential Model. The model is trained on the MNIST dataset to recognize handwritten digits from 0 to 9.
+This repository contains two separate Deep Learning projects for handwritten digit recognition using the MNIST dataset.
 
-The project covers the complete workflow of a basic deep learning classification problem, including data preprocessing, model building, training, evaluation, and prediction.
+The first project uses a Sequential Neural Network, while the second project uses a Convolutional Neural Network (CNN).
 
-Objective:
+Both projects aim to classify handwritten digit images into one of the 10 classes (0–9).
 
-The main objective of this project is to build a neural network that can accurately classify handwritten digit images into one of the 10 classes (0–9).
+Projects
+1.Digit Recognition using Sequential Model
 
-Dataset:
+This project implements handwritten digit recognition using a Sequential Neural Network with Flatten and Dense layers.
 
-The project uses the MNIST handwritten digits dataset.
+Key concepts covered:
 
-Training images: 60,000
+MNIST Dataset
+Data preprocessing
+Pixel normalization
+Flatten Layer
+Dense Layers
+Model Training
+Model Evaluation
+Digit Prediction
+Accuracy and Loss Visualization
 
-Testing images: 10,000
+2.Digit Recognition using CNN
 
-Image size: 28 × 28 pixels
+This project implements handwritten digit recognition using a Convolutional Neural Network (CNN).
 
-Number of classes: 10
-Classes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+CNNs are particularly useful for image classification because they can learn important spatial features such as edges, shapes, and patterns from images.
 
-Each image represents a handwritten digit.
+Key concepts covered:
 
-Model Architecture:
+MNIST Dataset
+Image preprocessing
+Pixel normalization
+Convolutional Layer (Conv2D)
+Pooling Layer (MaxPooling2D)
+Flatten Layer
+Dense Layers
+Model Training
+Model Evaluation
+Digit Prediction
+Accuracy and Loss Visualization
 
-A Sequential Neural Network is used for digit classification.
+Both projects use the MNIST Handwritten Digit Dataset.
 
-The model consists of:
-
-Flatten Layer – Converts the 28×28 image into a 1D vector.
-Dense Hidden Layer – Learns important patterns and features from the images.
-Output Layer – Contains 10 neurons, one for each digit (0–9).
-Softmax Activation – Produces the probability of each digit class.
-
+Training Images: 60,000
+Testing Images: 10,000
+Image Size: 28 × 28 pixels
+Classes: 10
+Digits: 0–9
+Image Type: Grayscale
 Technologies Used:
 Python
 NumPy
@@ -42,63 +59,26 @@ Matplotlib
 TensorFlow
 Keras
 Jupyter Notebook
-Project Workflow:
-Load the MNIST dataset
-Explore the dataset
-Visualize handwritten digit images
-Normalize the pixel values
-Build the Sequential Neural Network
-Compile the model
-Train the model
-Evaluate the model on test data
-Make predictions
-Visualize predicted digits and results
-Data Preprocessing:
 
-The pixel values of the images are normalized before training.
+Learning Objectives:
 
-Since MNIST pixel values range from 0 to 255, they are scaled to the range 0 to 1.
+Through these projects, the following concepts are explored:
 
-This helps the neural network train more efficiently.
+Understanding image classification
+Working with the MNIST dataset
+Image preprocessing and normalization
+Building a Sequential Neural Network
+Building a Convolutional Neural Network
+Understanding different Deep Learning layers
+Training and evaluating models
+Visualizing model performance
+Making handwritten digit predictions
 
-Model Training:
+This repository contains two independent implementations of handwritten digit recognition.
 
-The model is trained using the training dataset. During training, the model learns patterns from handwritten digits and improves its ability to classify unseen images.
+The Sequential Model provides a basic approach to image classification using neural networks, while the CNN Model demonstrates a more image-focused Deep Learning approach using convolution and pooling layers.
 
-Model Evaluation:
-
-After training, the model is evaluated using the test dataset.
-
-The project also includes visualization of predictions to check whether the model correctly recognizes handwritten digits.
-Example:
-
-Actual Digit:4
-Predicted Digit:4
-Prediction:
-
-The trained model can predict the digit present in an unseen MNIST image.
-
-The model returns probabilities for all 10 classes, and the class with the highest probability is selected as the predicted digit.
-
-Visualizations:
-
-The project includes visualizations such as:
-
-Key Learnings:
-
-Through this project, I learned:
-
-How to work with the MNIST dataset
-Image preprocessing for deep learning
-How a Sequential model works
-How Flatten and Dense layers are used
-How to train a neural network
-How to evaluate classification performance
-How to visualize model predictions
-Basics of handwritten digit classification
-Conclusion:
-
-This project successfully demonstrates how a Sequential Neural Network can be used for handwritten digit recognition. It provides a practical introduction to Deep Learning, Neural Networks, and Image Classification using TensorFlow and Keras.
+Together, these projects provide practical experience with Deep Learning, Neural Networks, CNNs, and Image Classification.
 
 Author:
 Nidhi Sharma
