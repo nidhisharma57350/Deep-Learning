@@ -10,7 +10,7 @@ Both projects aim to classify handwritten digit images into one of the 10 classe
 
 # Projects:
 
-1.Digit Recognition using Sequential Model
+# 1.Digit Recognition using Sequential Model
 
 This project implements handwritten digit recognition using a Sequential Neural Network with Flatten and Dense layers.
 
@@ -26,7 +26,7 @@ Model Evaluation
 Digit Prediction
 Accuracy and Loss Visualization
 
-2.Digit Recognition using CNN
+# 2.Digit Recognition using CNN
 
 This project implements handwritten digit recognition using a Convolutional Neural Network (CNN).
 
