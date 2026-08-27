@@ -1,4 +1,5 @@
-Digit Recognition using Deep Learning:
+# Digit Recognition using Deep Learning:
+
 Overview:
 
 This repository contains two separate Deep Learning projects for handwritten digit recognition using the MNIST dataset.
@@ -7,13 +8,13 @@ The first project uses a Sequential Neural Network, while the second project use
 
 Both projects aim to classify handwritten digit images into one of the 10 classes (0–9).
 
-Projects:
+# Projects:
 
 1.Digit Recognition using Sequential Model
 
 This project implements handwritten digit recognition using a Sequential Neural Network with Flatten and Dense layers.
 
-Key concepts covered:
+# Key concepts covered:
 
 MNIST Dataset
 Data preprocessing
@@ -31,7 +32,7 @@ This project implements handwritten digit recognition using a Convolutional Neur
 
 CNNs are particularly useful for image classification because they can learn important spatial features such as edges, shapes, and patterns from images.
 
-Key concepts covered:
+# Key concepts covered:
 
 MNIST Dataset
 Image preprocessing
@@ -61,7 +62,7 @@ TensorFlow
 Keras
 Jupyter Notebook
 
-Learning Objectives:
+# Learning Objectives:
 
 Through these projects, the following concepts are explored:
 
