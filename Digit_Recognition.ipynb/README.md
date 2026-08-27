@@ -7,7 +7,8 @@ The first project uses a Sequential Neural Network, while the second project use
 
 Both projects aim to classify handwritten digit images into one of the 10 classes (0–9).
 
-Projects
+Projects:
+
 1.Digit Recognition using Sequential Model
 
 This project implements handwritten digit recognition using a Sequential Neural Network with Flatten and Dense layers.
