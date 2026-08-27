@@ -14,8 +14,11 @@ Dataset:
 The project uses the MNIST handwritten digits dataset.
 
 Training images: 60,000
+
 Testing images: 10,000
+
 Image size: 28 × 28 pixels
+
 Number of classes: 10
 Classes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 
