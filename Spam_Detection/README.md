@@ -41,39 +41,39 @@ All three models follow a similar machine learning workflow:
 
 Dataset
 
-   ↓
+     ↓
    
 Data Cleaning
 
-   ↓
+     ↓
 
 Text Preprocessing
 
-   ↓
+     ↓
    
 Tokenization
 
-   ↓
+     ↓
    
 Sequence Conversion
 
-   ↓
+     ↓
    
 Padding
 
-   ↓
+     ↓
    
 Train-Test Split
 
-   ↓
+     ↓
    
 Model Training
 
-   ↓
+     ↓
    
 Model Evaluation
 
-   ↓
+     ↓
    
 Spam / Ham Prediction
 
