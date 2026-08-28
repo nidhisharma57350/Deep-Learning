@@ -25,81 +25,62 @@ In this project, the same dataset and preprocessing approach are used to train t
 
 A Simple Recurrent Neural Network processes text sequentially and learns patterns from previous words/tokens.
 
-Input Text
-    ↓
-Text Preprocessing
-    ↓
-Tokenization & Padding
-    ↓
-Embedding
-    ↓
-Simple RNN
-    ↓
-Dense (Sigmoid)
-    ↓
-Spam / Ham
 2. LSTM
 
 Long Short-Term Memory (LSTM) is an advanced form of RNN designed to handle long-term dependencies more effectively using memory cells and gates.
 
-Input Text
-    ↓
-Text Preprocessing
-    ↓
-Tokenization & Padding
-    ↓
-Embedding
-    ↓
-LSTM
-    ↓
-Dense (Sigmoid)
-    ↓
-Spam / Ham
+
 3. GRU
 
 Gated Recurrent Unit (GRU) is another recurrent architecture that uses gates to control the flow of information while having a simpler structure than LSTM.
 
-Input Text
-    ↓
-Text Preprocessing
-    ↓
-Tokenization & Padding
-    ↓
-Embedding
-    ↓
-GRU
-    ↓
-Dense (Sigmoid)
-    ↓
-Spam / Ham
 
-Common Workflow
+# Common Workflow:
 
 All three models follow a similar machine learning workflow:
 
 Dataset
+
    ↓
+   
 Data Cleaning
+
    ↓
+
 Text Preprocessing
+
    ↓
+   
 Tokenization
+
    ↓
+   
 Sequence Conversion
+
    ↓
+   
 Padding
+
    ↓
+   
 Train-Test Split
+
    ↓
+   
 Model Training
+
    ↓
+   
 Model Evaluation
+
    ↓
+   
 Spam / Ham Prediction
 
 The main difference between the three implementations is the recurrent layer used in the neural network.
 
 # Technologies & Libraries:
+
 Python
 
 TensorFlow / Keras
