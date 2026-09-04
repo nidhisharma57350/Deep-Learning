@@ -4,7 +4,7 @@ Welcome to my Deep Learning repository! This space serves as a centralized portf
 
 # Frameworks & Tools
 
-*   **Core Frameworks:** TensorFlow / Keras / PyTorch
+*   **Core Frameworks:** TensorFlow / Keras 
 *   **Data & Viz:** NumPy, Pandas, Matplotlib, Seaborn
 
 # Core Architectures Explored
@@ -12,4 +12,3 @@ Welcome to my Deep Learning repository! This space serves as a centralized portf
 *   ANN (Artificial Neural Networks)
 *   CNN (Convolutional Neural Networks)
 *   RNN & LSTM (Recurrent Neural Networks)
-*   Transformers (Advanced)
